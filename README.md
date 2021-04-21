@@ -1,1 +1,1 @@
-# huddle-landing-page
+This is huddle landing page for practice of HTML and CSS.

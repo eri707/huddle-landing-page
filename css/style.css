@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Slab", serif;
+  font-size: 19px;
+  margin-top: 8rem;
+  color: white;
+}
+
+.container {
+  max-width: 70%;
+  margin: 0 auto;
+  position: relative;
+}
+.container .back-ground {
+  background-color: #7055d1;
+  max-width: 100%;
+}
+.container header {
+  position: absolute;
+  top: 2rem;
+  left: 6rem;
+}
+
+.container main {
+  display: flex;
+}
+.container main .image {
+  position: absolute;
+  top: 12rem;
+  left: 6rem;
+}
+.container main .description {
+  position: absolute;
+  top: 13rem;
+  left: 54rem;
+  width: 47%;
+  padding: 0;
+}
+.container main .description h1 {
+  max-width: 30rem;
+}
+.container main .description h4 {
+  max-width: 37rem;
+  color: #cccaca;
+}
+.container main .description button {
+  background-color: white;
+  border-radius: 5rem;
+  width: 8rem;
+}
+.container main .description button h3 {
+  margin: 0.5rem auto;
+  color: #a09e9e;
+}
+
+/*# sourceMappingURL=style.css.map */

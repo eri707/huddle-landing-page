@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: "Roboto Slab", serif;
+  font-family: "Noto Sans", sans-serif;
   font-size: 19px;
   margin-top: 8rem;
   color: white;
@@ -42,14 +42,16 @@ body {
 .container main .description h1 {
   max-width: 30rem;
 }
-.container main .description h4 {
-  max-width: 37rem;
-  color: #cccaca;
+.container main .description h5 {
+  max-width: 30rem;
+  color: #e9e3e3;
+  font-weight: 100;
 }
 .container main .description button {
   background-color: white;
   border-radius: 5rem;
-  width: 8rem;
+  width: 12rem;
+  padding: 0.5rem 0;
 }
 .container main .description button h3 {
   margin: 0.5rem auto;

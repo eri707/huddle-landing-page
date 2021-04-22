@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Noto Sans', sans-serif;;
     font-size: 19px;
     margin-top: 8rem ;
     color: white;
@@ -37,14 +37,16 @@ body {
         h1 {
             max-width: 30rem;
         }
-        h4 {
-            max-width: 37rem;
-            color:rgb(204, 202, 202);
+        h5 {
+            max-width: 30rem;
+            color:rgb(233, 227, 227);
+            font-weight: 100;
         }
         button {
             background-color: white;
             border-radius: 5rem;
-            width: 8rem;
+            width: 12rem;
+            padding: 0.5rem 0;
             h3 {
                 margin: 0.5rem auto;
                 color:rgb(160, 158, 158);

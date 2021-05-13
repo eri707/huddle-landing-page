@@ -5,8 +5,9 @@
 body {
   font-family: "Noto Sans", sans-serif;
   font-size: 19px;
-  margin-top: 8rem;
   color: white;
+  padding: 0;
+  margin: 0;
 }
 
 .container {
@@ -14,36 +15,63 @@ body {
   margin: 0 auto;
   position: relative;
 }
+@media screen and (max-width: 640px) {
+  .container {
+    max-width: 100%;
+  }
+}
 .container .back-ground {
   background-color: #7055d1;
-  max-width: 100%;
+  width: 100%;
+  background-image: url("../images/bg-desktop.svg");
+  background-position: center center;
+  background-size: cover;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+@media screen and (max-width: 640px) {
+  .container .back-ground {
+    background-image: url("../images/mobile.svg");
+  }
 }
 .container header {
-  position: absolute;
-  top: 2rem;
-  left: 6rem;
+  padding: 4rem;
 }
-
 .container main {
   display: flex;
+  padding: 2rem 4rem;
+  position: relative;
+  z-index: 1;
+  flex-direction: row;
+}
+@media screen and (max-width: 640px) {
+  .container main {
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+  }
 }
 .container main .image {
-  position: absolute;
-  top: 12rem;
-  left: 6rem;
+  max-width: 100%;
+}
+.container main .image img {
+  max-width: 100%;
 }
 .container main .description {
-  position: absolute;
-  top: 13rem;
-  left: 54rem;
-  width: 47%;
+  width: 33%;
   padding: 0;
+  padding-left: 2rem;
 }
-.container main .description h1 {
-  max-width: 30rem;
+@media screen and (max-width: 640px) {
+  .container main .description {
+    padding: 1rem;
+    width: 100%;
+  }
 }
 .container main .description h5 {
-  max-width: 30rem;
   color: #e9e3e3;
   font-weight: 100;
 }
